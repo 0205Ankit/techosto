@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 600;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+*::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+*::-webkit-scrollbar-button {
+	width: 0px;
+	height: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: #ccc;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	background: #ccc;
+}
+
+*::-webkit-scrollbar-thumb:active {
+	background: #ccc;
+}
+
+*::-webkit-scrollbar-track {
+	background: #ffffff;
+	border-radius: 0;
+}
+
+*::-webkit-scrollbar-track:hover {
+	background: #ffffff;
+}
+
+*::-webkit-scrollbar-track:active {
+	background: #ffffff;
+}
+
+*::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+.card-cover-img {
+	background-color: #f5f5f5;
+	display: flex!important;
+	align-items: center;
+	justify-content: center;
+}
